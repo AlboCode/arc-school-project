@@ -1,0 +1,21 @@
+html {
+    background-color: #c6ced0;
+    font-family: "M PLUS 1p", sans-serif;
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+}
+.mouse-section{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 1fr;
+}
+.dangers-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.text-center {
+    text-align: center;
+}
