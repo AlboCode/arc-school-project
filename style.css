@@ -1,6 +1,6 @@
 html {
-    background-color: #c6ced0;
-    font-family: "M PLUS 1p", sans-serif;
+    background-color: #d4eaf0;
+    font-family: "Sawarabi Gothic";
     overflow-x: hidden;
 }
 body {
@@ -10,7 +10,14 @@ body {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     grid-template-rows: 1fr;
+    position: relative;
 }
+.shadow {
+     -moz-text-shadow: 1px 2px 3px rgb(255 189 0);
+     -webkit-text-shadow: 1px 2px 3px rgb(255 189 0);
+     -ms-text-shadow: 1px 2px 3px rgb(255 189 0);
+     text-shadow: 1px 2px 3px rgb(255 189 0);
+ }
 .dangers-section {
     display: grid;
     grid-template-columns: 1fr;
